@@ -1,5 +1,3 @@
-import Footer from "@/components/FOOTER";
-import Nav from "@/components/HEADER";
 import { Button } from "@/components/ui/button";
 import { SlMagnifier } from "react-icons/sl";
 import { IoFilterSharp } from "react-icons/io5";
@@ -33,7 +31,6 @@ const stores = [
 export default function Location() {
   return (
     <main>
-      <Nav />
       <section className="flex flex-col lg:flex-row w-full h-full items-center p-5">
         {/* Left Sidebar */}
         <div className="bg-white w-full lg:w-[40%] xl:w-[40%] p-10 overflow-y-auto">
@@ -92,7 +89,6 @@ export default function Location() {
           />
         </div>
       </section>
-      <Footer />
     </main>
   );
 }

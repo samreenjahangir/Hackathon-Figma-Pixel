@@ -1,6 +1,7 @@
 
 import Link from "next/link"
 import { Button } from "./ui/button"
+import Image from "next/image"
 export default function Hero(){
     return(
         <section className="flex justify-center flex-col items-center bg-[#fafafa] m-4 ">
@@ -11,15 +12,8 @@ export default function Hero(){
            <Link href={"/"}> Get Your Great</Link>
         </p>
             </div>
-            <div
-                 style={{
-                    backgroundImage: "url('/hero.png')",
-                    backgroundSize: "cover", 
-                    backgroundPosition: "center", 
-                    backgroundRepeat: "no-repeat", 
-                    height: "100vh", 
-                    width: "100%", 
-                  }}> 
+            <div>
+            <Image src={"/hero.png"} alt={"flight"} width={1344} height={700}/> 
             </div>
             <div className="flex justify-center items-center flex-col p-10 text-center
             ">
