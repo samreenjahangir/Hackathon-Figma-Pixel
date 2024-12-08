@@ -11,7 +11,7 @@ export default function Nav() {
   <p className="text-black text-sm bg-white">Skip to main content</p>
 </div>
       <div className="flex md:gap-4 sm:gap-3 gap-2">
-        <Link href="#" className="hover:text-gray-800">Find Link Store</Link>
+        <Link href="/Location" className="hover:text-gray-800">Find Link Store</Link>
         <Link href="#" className="hover:text-gray-800">Help</Link>
         <Link href="#" className="hover:text-gray-800">Join Us</Link>
         <Link href="#" className="hover:text-gray-800">Sign In</Link>
