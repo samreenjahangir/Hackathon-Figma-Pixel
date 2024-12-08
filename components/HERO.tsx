@@ -12,9 +12,7 @@ export default function Hero(){
            <Link href={"/"}> Get Your Great</Link>
         </p>
             </div>
-            <div>
-            <Image src={"/hero.png"} alt={"flight"} width={1344} height={700}/> 
-            </div>
+            <Image src={"/hero.png"} alt={"shoes"} width={1344} height={700}/>
             <div className="flex justify-center items-center flex-col p-10 text-center
             ">
                 <p className="text-sm">First Look</p>
