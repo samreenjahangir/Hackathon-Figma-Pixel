@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button"
-import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input"
 import Image from "next/image"
 import Link from "next/link"
@@ -36,7 +35,7 @@ export default function Joinn(){
                     </div>
                         
                     <div className="flex justify-between max-w-[280px] mx-auto mt-6">
-                        <h1 className="text-[#BCBCBC] text-[12px] flex gap-1 items-center"><Checkbox className="border-[#BCBCBC]"/>Sign up for emails to get updates from Nike on products, offers and your Member benefits</h1>
+                        <h1 className="text-[#BCBCBC] text-[12px] flex gap-1 items-center"><input type="checkox" />Sign up for emails to get updates from Nike on products, offers and your Member benefits</h1>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-4">
                         <p className="text-[#BCBCBC] text-[12px]">By creating an account, you agree to Nike&apos;s <u>Privacy Policy</u></p>

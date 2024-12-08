@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input"
 import Image from "next/image"
 export default function Login(){
@@ -24,7 +23,7 @@ export default function Login(){
                     </div>
                         
                     <div className="flex justify-between max-w-lg mx-auto mt-6 gap-x-10 md:gap-x-16">
-                        <h1 className="text-[#BCBCBC] text-[12px] flex gap-1 items-center"><Checkbox className="border-[#BCBCBC]"/>Keep me signed In</h1>
+                        <h1 className="text-[#BCBCBC] text-[12px] flex gap-1 items-center"><input type="checkbox" />Keep me signed In</h1>
                         <p className="text-[#BCBCBC] text-[12px]"   >Forgotten your password?</p>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-4">

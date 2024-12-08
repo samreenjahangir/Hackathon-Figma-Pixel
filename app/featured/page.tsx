@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { IoIosArrowUp } from "react-icons/io";
-import { Checkbox } from "@/components/ui/checkbox";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FiFilter } from "react-icons/fi";
 import { FeaturedCarousel } from "@/components/FeaturedCarousel";
@@ -34,15 +33,15 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              <Checkbox />
+              
               Men
             </h1>
             <h1 className="flex gap-2 items-center">
-              <Checkbox />
+             
               Women
             </h1>
             <h1 className="flex gap-2 items-center">
-              <Checkbox />
+             
               Unisex
             </h1>
           </div>
@@ -57,11 +56,11 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              <Checkbox />
+              
               Boys
             </h1>
             <h1 className="flex gap-2 items-center">
-              <Checkbox />
+              
               Girls
             </h1>
           </div>
@@ -76,11 +75,11 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              <Checkbox />
+           
               Under ₹ 2 500.00
             </h1>
             <h1 className="flex gap-2 items-center">
-              <Checkbox />₹ 2 501.00 - ₹ 7 500.00
+             ₹ 2 501.00 - ₹ 7 500.00
             </h1>
           </div>
         </div>
