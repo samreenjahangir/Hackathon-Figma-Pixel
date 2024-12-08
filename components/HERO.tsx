@@ -21,10 +21,12 @@ export default function Hero(){
                     width: "100%", 
                   }}> 
             </div>
-            <div className="flex justify-center items-center flex-col p-10">
+            <div className="flex justify-center items-center flex-col p-10 text-center
+            ">
                 <p className="text-sm">First Look</p>
                 <h2 className=" text-4xl font-bold uppercase">Nike Air Max Pulse</h2>
-                <p  className="text-sm leading-5 w-[60%] pt-3 pb-2 text-center">
+                <p  className="text-sm leading-5 w-full pt-3 pb-2 text-center
+                lg:w-[60%]">
                 Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse
                 —designed to push you past your limits and help you go to the max.
            

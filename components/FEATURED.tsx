@@ -15,7 +15,7 @@ export default function Featured() {
           width: "100%",
         }}
       ></div>
-      <div className="flex justify-center items-center flex-col gap-3 p-10">
+      <div className="flex justify-center items-center flex-col gap-3 p-10 text-center">
         <h2 className=" text-4xl font-bold uppercase"> STEP INTO WHAT FEELS GOOD</h2>
         <p className="text-sm leading-5 w-[60%] pt-3 pb-2 text-center">
           Cause everyone should know the feeling of running in that perfect

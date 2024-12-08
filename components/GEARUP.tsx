@@ -1,12 +1,18 @@
-import Image from "next/image";
-import { products, ProductDetail } from "@/data/detail";  // Import the product data
+import Image from 'next/image'; // Ensure Image is imported
+import { Button } from "@/components/ui/button"; // Ensure Button is imported
+import { GearCarousel1 } from "@/components/GearCarousel1";
+import { GearCarousel2 } from "@/components/GearCarousel2";
 
 export default function GearUp() {
   return (
-    <section className="p-10 flex flex-col">
-     
-
-     
+    <section>
+      <h1 className="font-semibold text-2xl mb-3 ml-2">Gear Up</h1>
+      <div className="md:flex space-y-10 md:space-y-0 md:space-x-10">
+        <GearCarousel1 />
+        <GearCarousel2 />
+      </div>
     </section>
+
+  
   );
 }
