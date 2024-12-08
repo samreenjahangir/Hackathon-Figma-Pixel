@@ -1,5 +1,4 @@
-import Image from 'next/image'; // Ensure Image is imported
-import { Button } from "@/components/ui/button"; // Ensure Button is imported
+
 import { GearCarousel1 } from "@/components/GearCarousel1";
 import { GearCarousel2 } from "@/components/GearCarousel2";
 

@@ -11,8 +11,8 @@ import {
 } from "@/components/ui/carousel"
 
 import Link from "next/link"
-import { Button } from "./ui/button"
-import { airMax, gear2 } from "@/data/detail"
+
+import {  gear2 } from "@/data/detail"
 
 export function GearCarousel2() {
   return (

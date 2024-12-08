@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <nav className="bg-gray-100 py-6">
       <div className="flex justify-center items-center">
-        <div className="flex  justify-center items-center gap-5 flex-wrap w-[80%]">
+        <div className="flex justify-center items-center gap-5 flex-wrap w-[80%]">
           {/* Icons Section */}
           <div className="flex flex-col w-[15%] max-md:w-full">
             <span className="text-lg font-semibold text-gray-900 mb-3">Icons</span>
@@ -124,7 +124,7 @@ export default function Navigation() {
 
           {/* Kids Section */}
           <div className="flex flex-col w-[33%] max-md:w-full">
-            <span className="text-sm font-semibold text-gray-900 mb-3">Kids'</span>
+            <span className="text-sm font-semibold text-gray-900 mb-3">Kid&apos;s</span>
             <ul className="space-y-6 text-base text-gray-500">
               <li>
                 <Link
@@ -139,7 +139,7 @@ export default function Navigation() {
                   href="#"
                   className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
                 >
-                  Kids' Shoes
+                  Kid&apos;s Shoes
                 </Link>
               </li>
               <li>
@@ -147,7 +147,7 @@ export default function Navigation() {
                   href="#"
                   className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
                 >
-                  Kids' Jordan Shoes
+                  Kid&apos;s Jordan Shoes
                 </Link>
               </li>
               <li>
@@ -155,7 +155,7 @@ export default function Navigation() {
                   href="#"
                   className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
                 >
-                  Kids' Basketball Shoes
+                  Kid&apos;s Basketball Shoes
                 </Link>
               </li>
             </ul>
