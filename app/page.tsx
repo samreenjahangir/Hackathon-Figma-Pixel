@@ -6,7 +6,7 @@ import Featured from "@/components/FEATURED";
 import GearUp from "@/components/GEARUP";
 import Hero from "@/components/HERO";
 import Navigation from "@/components/Navigation";
-import { CarouselSize } from "@/components/BEST"
+import  SHOES  from "@/components/BEST"
 
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
   <main>
  
     <Hero/>
-    <CarouselSize/>
+    <SHOES/>
     <Featured/>
     <GearUp/>
     <DontMiss/>
